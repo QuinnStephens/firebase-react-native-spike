@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target "FirebaseLoginSpike" do
+  # Required by RNFirebase
+  pod 'Firebase/Core', '~> 6.3.0'
+  pod 'Firebase/Auth', '~> 6.3.0'
+end
